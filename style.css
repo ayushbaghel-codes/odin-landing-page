@@ -68,32 +68,50 @@ button {
   height: auto;
 }
 
-.section-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 40px;
-}
+  /* SECTION 2 STARTS HERE */
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+  }
 
-.information-header {
-  font-size: 36px;
-  color: #1f2937;
-  font-weight: 900;
-}
+  .information-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 30px;
+  }
 
-.info-cards {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  width: 100px;
-}
+  .info-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 
-.info-card-image {
-  width: 100px;
-  border-radius: 10px;
-  border: solid 2px #3882f6;
-}
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+  }
+
+  .info-card-image {
+    width: 100px;
+    border-radius: 10px;
+    border: solid 2px #3882f6;
+  }
+
+  .card-subtext {
+    max-width: 100px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+  }
 
 /* SECTION 3 STYLING STARTS HERE */
 
@@ -105,7 +123,7 @@ button {
   align-items: center;
 }
 
-.quote-text{
+.quote-text {
   font-size: 24px;
   font-style: italic;
   font-weight: 300px;
